@@ -9,7 +9,7 @@ public class Welcome
     @RequestMapping("/welcome")
     public String index()
     {
-            return "Hello World";
+            return "Hello Welcome to my first IntelliJ project!";
     }
 
     @RequestMapping("/Bye")
