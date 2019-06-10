@@ -2,7 +2,7 @@ package com.com.beans.topics;
 
 public class Topics
 {
-    Integer id;
+    String id;
     String name;
     String school;
 
@@ -10,17 +10,17 @@ public class Topics
 
     }
 
-    public Topics(Integer id, String name, String school) {
+    public Topics(String id, String name, String school) {
         this.id = id;
         this.name = name;
         this.school = school;
     }
 
-    public Integer getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(String id) {
         this.id = id;
     }
 
